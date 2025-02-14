@@ -1,0 +1,2 @@
+user ( userId) has account (accountName) [1 to N]
+user ( userId) has job (jobName) [1 to N]

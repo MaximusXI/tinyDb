@@ -1,0 +1,24 @@
+TinyDb:
+  - Database: d1
+  - Database: testDB
+    - Table: users
+      PrimaryKey: id
+      Columns:
+        - Column: id
+          DataType: INT
+          Size: 2147483647
+        - Column: name
+          DataType: VARCHAR
+          Size: 100
+        - Column: age
+          DataType: INT
+          Size: 2147483647
+      Data:
+        - Row:
+          id: 1
+          name: 'Alice'
+          age: 30
+        - Row:
+          id: 2
+          name: 'Alice'
+          age: 30

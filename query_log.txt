@@ -1,0 +1,248 @@
+{"userId":"test","timestamp":"2024-07-20 15:26:01","queryType":"CREATE TABLE","query":"CREATE TABLE user (
+    userId INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    age INT
+);
+"}
+{"userId":"test","timestamp":"2024-07-20 15:26:33","queryType":"CREATE TABLE","query":"CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-20 15:27:06","queryType":"CREATE TABLE","query":"CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-20 23:08:27","queryType":"CREATE TABLE","query":"CREATE TABLE abc (
+    abcId INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    age INT
+);
+"}
+{"userId":"test","timestamp":"2024-07-20 23:08:41","queryType":"CREATE TABLE","query":"CREATE TABLE pqr (
+    pqrId INT PRIMARY KEY,
+    pqrName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERENCES abc(abcId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-20 23:08:54","queryType":"CREATE TABLE","query":"CREATE TABLE xyz (
+    xyzId INT PRIMARY KEY,
+    xyzName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES abc(abcId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-20 23:50:40","queryType":"DROP TABLE","query":"DROP TABLE account;
+"}
+{"userId":"test","timestamp":"2024-07-21 00:46:11","queryType":"CREATE TABLE","query":"CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 00:49:45","queryType":"DROP TABLE","query":"DROP TABLE account;
+"}
+{"userId":"test","timestamp":"2024-07-21 13:30:37","queryType":"CREATE TABLE","query":"CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 13:33:21","queryType":"NO DATABASE SELECTED","query":"DROP TABLE account;
+"}
+{"userId":"test","timestamp":"2024-07-21 13:34:05","queryType":"DROP TABLE","query":"DROP TABLE account;
+"}
+{"userId":"test","timestamp":"2024-07-21 13:36:25","queryType":"CREATE TABLE","query":"CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 13:38:07","queryType":"CREATE TABLE","query":"CREATE TABLE user (
+    userId INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    age INT
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 13:38:17","queryType":"CREATE TABLE","query":"CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 13:38:31","queryType":"CREATE TABLE","query":"CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 13:40:30","queryType":"DROP TABLE","query":"DROP TABLE account;
+"}
+{"userId":"test","timestamp":"2024-07-21 13:41:46","queryType":"CREATE TABLE","query":"CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 13:50:15","queryType":"DROP TABLE","query":"DROP TABLE account;
+"}
+{"userId":"test","timestamp":"2024-07-21 13:56:15","queryType":"CREATE TABLE","query":"CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 13:58:12","queryType":"DROP TABLE","query":"DROP TABLE account;
+"}
+{"userId":"test","timestamp":"2024-07-21 14:31:08","queryType":"CREATE TABLE","query":"CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 14:31:15","queryType":"CREATE TABLE","query":"CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 14:32:01","queryType":"DROP TABLE","query":"DROP TABLE account;
+"}
+{"userId":"test","timestamp":"2024-07-21 14:32:47","queryType":"CREATE TABLE","query":"CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 14:41:27","queryType":"DROP TABLE","query":"DROP TABLE account;
+"}
+{"userId":"test","timestamp":"2024-07-21 14:49:58","queryType":"CREATE TABLE","query":"CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERNCES job(id)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 14:51:45","queryType":"CREATE TABLE","query":"CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERNCES job(id)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 14:56:18","queryType":"CREATE TABLE","query":"CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERNCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 14:59:05","queryType":"CREATE TABLE","query":"CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERNCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 14:59:35","queryType":"CREATE TABLE","query":"CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERNCES job(id)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 15:04:42","queryType":"CREATE TABLE","query":"CREATE TABLE user (
+    userId INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    age INT
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 15:04:56","queryType":"CREATE TABLE","query":"CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERNCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 15:06:00","queryType":"CREATE TABLE","query":"CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERNCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 15:10:42","queryType":"CREATE TABLE","query":"CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERNCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 15:15:40","queryType":"CREATE TABLE","query":"CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 15:16:25","queryType":"CREATE TABLE","query":"CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERNCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 15:17:49","queryType":"CREATE TABLE","query":"CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 15:18:50","queryType":"DROP TABLE","query":"DROP TABLE course;
+"}
+{"userId":"test","timestamp":"2024-07-21 15:19:35","queryType":"CREATE TABLE","query":"CREATE TABLE job (
+    jobId INT PRIMARY KEY,
+    jobName VARCHAR(50),
+    FOREIGN KEY (jobName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 15:22:51","queryType":"CREATE TABLE","query":"CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 15:23:14","queryType":"CREATE TABLE","query":"CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 15:23:40","queryType":"CREATE TABLE","query":"CREATE TABLE job (
+    jobId INT PRIMARY KEY,
+    jobName VARCHAR(50),
+    FOREIGN KEY (jobName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 15:24:19","queryType":"DROP TABLE","query":"DROP TABLE account;
+"}
+{"userId":"test","timestamp":"2024-07-21 15:26:40","queryType":"NO DATABASE SELECTED","query":"DROP TABLE course;
+"}
+{"userId":"test","timestamp":"2024-07-21 15:26:58","queryType":"DROP TABLE","query":"DROP TABLE account;
+"}
+{"userId":"test","timestamp":"2024-07-21 15:28:19","queryType":"CREATE TABLE","query":"CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 15:28:36","queryType":"CREATE TABLE","query":"CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 15:29:03","queryType":"CREATE TABLE","query":"CREATE TABLE job (
+    jobId INT PRIMARY KEY,
+    jobName VARCHAR(50),
+    FOREIGN KEY (jobName) REFERENCES user(userId)
+);
+"}
+{"userId":"test","timestamp":"2024-07-21 15:29:55","queryType":"DROP TABLE","query":"DROP TABLE account;
+"}

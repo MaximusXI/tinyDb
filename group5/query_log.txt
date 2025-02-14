@@ -1,0 +1,25 @@
+{"userId":"test","timestamp":"2024-07-24 12:13:23","queryType":"Create Database","query":"Created database: db"}
+{"userId":"test","timestamp":"2024-07-24 12:14:26","queryType":"NO DATABASE SELECTED","query":"INSERT INTO users (id, name, email, age) VALUES (1, 'John', 'john@mail.com', 30);"}
+{"userId":"test","timestamp":"2024-07-24 12:14:33","queryType":"NO DATABASE SELECTED","query":"update users set name='Doe' where id=1;"}
+{"userId":"test","timestamp":"2024-07-24 12:14:39","queryType":"NO DATABASE SELECTED","query":"select * from users;"}
+{"userId":"test","timestamp":"2024-07-24 12:15:14","queryType":"CREATE TABLE","query":"CREATE TABLE users (    id INT PRIMARY KEY,    name VARCHAR(50),    email VARCHAR(50),    age INT);"}
+{"userId":"test","timestamp":"2024-07-24 12:15:25","queryType":"SELECT ROWS","query":"select * from users;"}
+{"userId":"test","timestamp":"2024-07-24 12:15:38","queryType":"SELECT ROWS","query":"select * from users;"}
+{"userId":"test","timestamp":"2024-07-24 12:16:22","queryType":"CREATE TABLE","query":"CREATE TABLE users (    id INT PRIMARY KEY,    name VARCHAR(50),    email VARCHAR(50),    age INT);"}
+{"userId":"test","timestamp":"2024-07-24 12:18:06","queryType":"SELECT ROWS","query":"select * from users;"}
+{"userId":"test","timestamp":"2024-07-24 12:22:07","queryType":"NO DATABASE SELECTED","query":"CREATE TABLE user (    userId INT PRIMARY KEY,    name VARCHAR(50),    email VARCHAR(50),    age INT);"}
+{"userId":"test","timestamp":"2024-07-24 12:22:15","queryType":"CREATE TABLE","query":"CREATE TABLE user (    userId INT PRIMARY KEY,    name VARCHAR(50),    email VARCHAR(50),    age INT);"}
+{"userId":"test","timestamp":"2024-07-24 12:25:28","queryType":"NO DATABASE SELECTED","query":"select * from user;"}
+{"userId":"test","timestamp":"2024-07-24 12:25:36","queryType":"SELECT ROWS","query":"select * from user;"}
+{"userId":"test","timestamp":"2024-07-24 12:25:56","queryType":"SELECT ROWS","query":"select * from user;"}
+{"userId":"test","timestamp":"2024-07-24 12:26:58","queryType":"SELECT ROWS","query":"select * from user;"}
+{"userId":"test","timestamp":"2024-07-24 12:27:51","queryType":"SELECT ROWS","query":"select * from user;"}
+{"userId":"test","timestamp":"2024-07-24 12:32:15","queryType":"CREATE TABLE","query":"CREATE TABLE users (    id INT PRIMARY KEY,    name VARCHAR(50),    email VARCHAR(50),    age INT);"}
+{"userId":"test","timestamp":"2024-07-24 12:32:27","queryType":"SELECT ROWS","query":"select * from users;"}
+{"userId":"test","timestamp":"2024-07-24 15:46:29","queryType":"INSERT ROWS","query":"INSERT INTO users (id, name, email, age) VALUES (1, 'John', 'john@mail.com', 30);"}
+{"userId":"test","timestamp":"2024-07-24 15:46:34","queryType":"SELECT ROWS","query":"select * from users;"}
+{"userId":"test","timestamp":"2024-07-24 15:47:34","queryType":"SELECT ROWS","query":"select * from users;"}
+{"userId":"test","timestamp":"2024-07-24 15:47:57","queryType":"INSERT ROWS","query":"INSERT INTO users (id, name, email, age) VALUES (2, 'Rohn', 'rohn@mail.com', 25);"}
+{"userId":"test","timestamp":"2024-07-24 15:48:03","queryType":"SELECT ROWS","query":"select * from users;"}
+{"userId":"test","timestamp":"2024-07-27 13:09:03","queryType":"INSERT ROWS","query":"INSERT INTO users (id, name, email, age) VALUES (3, 'Tron', 'tron@mail.com', 29);"}
+{"userId":"test","timestamp":"2024-07-27 13:09:22","queryType":"SELECT ROWS","query":"select * from users;"}

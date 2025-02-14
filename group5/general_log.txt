@@ -1,0 +1,74 @@
+{"timestamp":"2024-07-24 12:12:32","logType":"USER REGISTRATION","details":"User Registered Successfully"}
+{"timestamp":"2024-07-24 12:12:37","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-24 12:14:21","logType":"Execution Time","details":"Query: 1CREATE TABLE users (    id INT PRIMARY KEY,    name VARCHAR(50),    email VARCHAR(50),    age INT); Execution Time: 1.0406 ms"}
+{"timestamp":"2024-07-24 12:14:26","logType":"Execution Time","details":"Query: INSERT INTO users (id, name, email, age) VALUES (1, 'John', 'john@mail.com', 30); Execution Time: 2.3946 ms"}
+{"timestamp":"2024-07-24 12:14:33","logType":"Execution Time","details":"Query: update users set name='Doe' where id=1; Execution Time: 2.8072 ms"}
+{"timestamp":"2024-07-24 12:14:39","logType":"Execution Time","details":"Query: select * from users; Execution Time: 2.304 ms"}
+{"timestamp":"2024-07-24 12:14:44","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 0  "}
+{"timestamp":"2024-07-24 12:14:44","logType":"Execution Time","details":"Query: use db; Execution Time: 0.7066 ms"}
+{"timestamp":"2024-07-24 12:15:14","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 0  "}
+{"timestamp":"2024-07-24 12:15:14","logType":"Execution Time","details":"Query: CREATE TABLE users (    id INT PRIMARY KEY,    name VARCHAR(50),    email VARCHAR(50),    age INT); Execution Time: 21.3333 ms"}
+{"timestamp":"2024-07-24 12:15:25","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 0  "}
+{"timestamp":"2024-07-24 12:15:25","logType":"Execution Time","details":"Query: select * from users; Execution Time: 2.0258 ms"}
+{"timestamp":"2024-07-24 12:15:38","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 0  "}
+{"timestamp":"2024-07-24 12:15:38","logType":"Execution Time","details":"Query: select * from users; Execution Time: 2.317 ms"}
+{"timestamp":"2024-07-24 12:16:10","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-24 12:16:16","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 0  "}
+{"timestamp":"2024-07-24 12:16:16","logType":"Execution Time","details":"Query: use db; Execution Time: 1.5739 ms"}
+{"timestamp":"2024-07-24 12:16:22","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 0  "}
+{"timestamp":"2024-07-24 12:16:22","logType":"Execution Time","details":"Query: CREATE TABLE users (    id INT PRIMARY KEY,    name VARCHAR(50),    email VARCHAR(50),    age INT); Execution Time: 17.7401 ms"}
+{"timestamp":"2024-07-24 12:17:28","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-24 12:17:34","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 0  "}
+{"timestamp":"2024-07-24 12:17:34","logType":"Execution Time","details":"Query: use db; Execution Time: 1.3915 ms"}
+{"timestamp":"2024-07-24 12:18:06","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 0  "}
+{"timestamp":"2024-07-24 12:18:06","logType":"Execution Time","details":"Query: select * from users; Execution Time: 10.2903 ms"}
+{"timestamp":"2024-07-24 12:21:03","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-24 12:21:48","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-24 12:22:07","logType":"Execution Time","details":"Query: CREATE TABLE user (    userId INT PRIMARY KEY,    name VARCHAR(50),    email VARCHAR(50),    age INT); Execution Time: 13.5215 ms"}
+{"timestamp":"2024-07-24 12:22:12","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 0  "}
+{"timestamp":"2024-07-24 12:22:12","logType":"Execution Time","details":"Query: use db; Execution Time: 1.311 ms"}
+{"timestamp":"2024-07-24 12:22:15","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: user  Number of Records: 0  "}
+{"timestamp":"2024-07-24 12:22:15","logType":"Execution Time","details":"Query: CREATE TABLE user (    userId INT PRIMARY KEY,    name VARCHAR(50),    email VARCHAR(50),    age INT); Execution Time: 15.2555 ms"}
+{"timestamp":"2024-07-24 12:25:21","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-24 12:25:28","logType":"Execution Time","details":"Query: select * from user; Execution Time: 14.6388 ms"}
+{"timestamp":"2024-07-24 12:25:31","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: user  Number of Records: 2  "}
+{"timestamp":"2024-07-24 12:25:31","logType":"Execution Time","details":"Query: use db; Execution Time: 0.6539 ms"}
+{"timestamp":"2024-07-24 12:25:36","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: user  Number of Records: 2  "}
+{"timestamp":"2024-07-24 12:25:36","logType":"Execution Time","details":"Query: select * from user; Execution Time: 2.335 ms"}
+{"timestamp":"2024-07-24 12:25:56","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: user  Number of Records: 2  "}
+{"timestamp":"2024-07-24 12:25:56","logType":"Execution Time","details":"Query: select * from user; Execution Time: 3.2993 ms"}
+{"timestamp":"2024-07-24 12:26:58","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: user  Number of Records: 2  "}
+{"timestamp":"2024-07-24 12:26:58","logType":"Execution Time","details":"Query: select * from user; Execution Time: 2.0624 ms"}
+{"timestamp":"2024-07-24 12:27:51","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: user  Number of Records: 2  "}
+{"timestamp":"2024-07-24 12:27:51","logType":"Execution Time","details":"Query: select * from user; Execution Time: 3.2079 ms"}
+{"timestamp":"2024-07-24 12:31:57","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-24 12:32:06","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 0  "}
+{"timestamp":"2024-07-24 12:32:06","logType":"Execution Time","details":"Query: use db; Execution Time: 1.9605 ms"}
+{"timestamp":"2024-07-24 12:32:15","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 0  "}
+{"timestamp":"2024-07-24 12:32:15","logType":"Execution Time","details":"Query: CREATE TABLE users (    id INT PRIMARY KEY,    name VARCHAR(50),    email VARCHAR(50),    age INT); Execution Time: 61.5898 ms"}
+{"timestamp":"2024-07-24 12:32:27","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 0  "}
+{"timestamp":"2024-07-24 12:32:27","logType":"Execution Time","details":"Query: select * from users; Execution Time: 2.9583 ms"}
+{"timestamp":"2024-07-24 12:37:12","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-24 15:46:05","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-24 15:46:15","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 0  "}
+{"timestamp":"2024-07-24 15:46:15","logType":"Execution Time","details":"Query: use db; Execution Time: 2.2368 ms"}
+{"timestamp":"2024-07-24 15:46:29","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 1  "}
+{"timestamp":"2024-07-24 15:46:29","logType":"Execution Time","details":"Query: INSERT INTO users (id, name, email, age) VALUES (1, 'John', 'john@mail.com', 30); Execution Time: 45.2109 ms"}
+{"timestamp":"2024-07-24 15:46:34","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 1  "}
+{"timestamp":"2024-07-24 15:46:34","logType":"Execution Time","details":"Query: select * from users; Execution Time: 4.1834 ms"}
+{"timestamp":"2024-07-24 15:47:10","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-24 15:47:13","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 1  "}
+{"timestamp":"2024-07-24 15:47:13","logType":"Execution Time","details":"Query: use db; Execution Time: 2.5446 ms"}
+{"timestamp":"2024-07-24 15:47:34","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 1  "}
+{"timestamp":"2024-07-24 15:47:34","logType":"Execution Time","details":"Query: select * from users; Execution Time: 11.0094 ms"}
+{"timestamp":"2024-07-24 15:47:57","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 2  "}
+{"timestamp":"2024-07-24 15:47:57","logType":"Execution Time","details":"Query: INSERT INTO users (id, name, email, age) VALUES (2, 'Rohn', 'rohn@mail.com', 25); Execution Time: 10.6778 ms"}
+{"timestamp":"2024-07-24 15:48:03","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 2  "}
+{"timestamp":"2024-07-24 15:48:03","logType":"Execution Time","details":"Query: select * from users; Execution Time: 1.9861 ms"}
+{"timestamp":"2024-07-27 13:08:48","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-27 13:08:52","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 2  "}
+{"timestamp":"2024-07-27 13:08:52","logType":"Execution Time","details":"Query: use db; Execution Time: 3.911099 ms"}
+{"timestamp":"2024-07-27 13:09:03","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 3  "}
+{"timestamp":"2024-07-27 13:09:03","logType":"Execution Time","details":"Query: INSERT INTO users (id, name, email, age) VALUES (3, 'Tron', 'tron@mail.com', 29); Execution Time: 87.0091 ms"}
+{"timestamp":"2024-07-27 13:09:22","logType":"DATABASE STATE","details":"Database Name: db  Number of Tables: 1  Table Name: users  Number of Records: 3  "}
+{"timestamp":"2024-07-27 13:09:22","logType":"Execution Time","details":"Query: select * from users; Execution Time: 2.9117 ms"}

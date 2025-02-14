@@ -1,0 +1,33 @@
+TinyDb:
+  - Database: db
+    - Table: users
+      PrimaryKey: id
+      Columns:
+        - Column: id
+          DataType: INT
+          Size: 2147483647
+        - Column: name
+          DataType: VARCHAR
+          Size: 50
+        - Column: email
+          DataType: VARCHAR
+          Size: 50
+        - Column: age
+          DataType: INT
+          Size: 2147483647
+      Data:
+        - Row:
+          id: 1
+          name: 'John'
+          email: 'john@mail.com'
+          age: 30
+        - Row:
+          id: 2
+          name: 'Rohn'
+          email: 'rohn@mail.com'
+          age: 25
+        - Row:
+          id: 3
+          name: 'Tron'
+          email: 'tron@mail.com'
+          age: 29

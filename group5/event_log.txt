@@ -1,0 +1,13 @@
+{"timestamp":"2024-07-24 12:13:23","logType":"EVENT","eventType":"System","description":"Error occurred while parsing query: Cannot invoke "entities.Database.logDatabaseState(String)" because "service.DatabaseService.currentDatabase" is null"}
+{"timestamp":"2024-07-24 12:14:53","logType":"EVENT","eventType":"System","description":"Error occurred while parsing query: Cannot invoke "java.util.List.iterator()" because "result" is null"}
+{"timestamp":"2024-07-24 12:15:32","logType":"EVENT","eventType":"System","description":"Error occurred while parsing query: transactionTable.txt (The system cannot find the file specified)"}
+{"timestamp":"2024-07-24 12:16:31","logType":"EVENT","eventType":"System","description":"Error occurred while parsing query: transactionTable.txt (The system cannot find the file specified)"}
+{"timestamp":"2024-07-24 12:17:59","logType":"EVENT","eventType":"System","description":"Error occurred while parsing query: transactionTable.txt (The system cannot find the file specified)"}
+{"timestamp":"2024-07-24 12:22:34","logType":"EVENT","eventType":"System","description":"Error occurred while parsing query: transactionTable.txt (The system cannot find the file specified)"}
+{"timestamp":"2024-07-24 12:22:41","logType":"EVENT","eventType":"System","description":"Error occurred while parsing query: Cannot invoke "java.util.List.iterator()" because "result" is null"}
+{"timestamp":"2024-07-24 12:25:49","logType":"EVENT","eventType":"System","description":"Error occurred while parsing query: transactionTable.txt (The system cannot find the file specified)"}
+{"timestamp":"2024-07-24 12:26:53","logType":"EVENT","eventType":"System","description":"Error occurred while parsing query: transactionTable.txt (The system cannot find the file specified)"}
+{"timestamp":"2024-07-24 12:27:41","logType":"EVENT","eventType":"System","description":"Error occurred while parsing query: transactionTable.txt (The system cannot find the file specified)"}
+{"timestamp":"2024-07-24 12:32:23","logType":"EVENT","eventType":"System","description":"Error occurred while parsing query: transactionTable.txt (The system cannot find the file specified)"}
+{"timestamp":"2024-07-24 15:47:28","logType":"EVENT","eventType":"System","description":"Error occurred while parsing query: transactionTable.txt (The system cannot find the file specified)"}
+{"timestamp":"2024-07-27 13:09:12","logType":"EVENT","eventType":"System","description":"Error occurred while parsing query: Cannot invoke "java.util.List.iterator()" because "result" is null"}

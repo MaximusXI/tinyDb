@@ -1,0 +1,1118 @@
+{"timestamp":"2024-07-20 15:25:34","logType":"USER REGISTRATION","details":"User Registered Successfully"}
+{"timestamp":"2024-07-20 15:25:40","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-20 15:25:49","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 0
+"}
+{"timestamp":"2024-07-20 15:25:49","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.2631 ms"}
+{"timestamp":"2024-07-20 15:26:01","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 1
+Table Name: user
+Number of Records: 0
+"}
+{"timestamp":"2024-07-20 15:26:01","logType":"Execution Time","details":"Query: CREATE TABLE user (
+    userId INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    age INT
+);
+
+ Execution Time: 46.5657 ms"}
+{"timestamp":"2024-07-20 15:26:33","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-20 15:26:33","logType":"Execution Time","details":"Query: CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERENCES user(userId)
+);
+
+ Execution Time: 9.3876 ms"}
+{"timestamp":"2024-07-20 15:27:06","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-20 15:27:06","logType":"Execution Time","details":"Query: CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+
+ Execution Time: 6.202 ms"}
+{"timestamp":"2024-07-20 15:27:29","logType":"Execution Time","details":"Query: CREATE TABLE kenil (
+    kenilId INT PRIMARY KEY,
+    kenilName VARCHAR(50),
+    FOREIGN KEY (abcName) REFERENCES pqr(userId)
+);
+
+ Execution Time: 3.1075 ms"}
+{"timestamp":"2024-07-20 15:28:03","logType":"Execution Time","details":"Query: CREATE TABLE kenil (
+    kenilId INT PRIMARY KEY,
+    kenilName VARCHAR(50),
+    FOREIGN KEY (abcName) REFERENCES user(kk)
+);
+
+ Execution Time: 3.3256 ms"}
+{"timestamp":"2024-07-20 15:54:00","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-20 15:54:06","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-20 15:54:06","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.1191 ms"}
+{"timestamp":"2024-07-20 15:59:22","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-20 15:59:27","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-20 15:59:27","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.2806 ms"}
+{"timestamp":"2024-07-20 16:56:34","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-20 16:56:40","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-20 16:56:40","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.2705 ms"}
+{"timestamp":"2024-07-20 23:07:57","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-20 23:08:21","logType":"DATABASE STATE","details":"Database Name: testDB
+Number of Tables: 0
+"}
+{"timestamp":"2024-07-20 23:08:21","logType":"Execution Time","details":"Query: use testDB;
+
+ Execution Time: 353.7969 ms"}
+{"timestamp":"2024-07-20 23:08:27","logType":"DATABASE STATE","details":"Database Name: testDB
+Number of Tables: 1
+Table Name: abc
+Number of Records: 0
+"}
+{"timestamp":"2024-07-20 23:08:27","logType":"Execution Time","details":"Query: CREATE TABLE abc (
+    abcId INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    age INT
+);
+
+ Execution Time: 182.2494 ms"}
+{"timestamp":"2024-07-20 23:08:41","logType":"DATABASE STATE","details":"Database Name: testDB
+Number of Tables: 2
+Table Name: abc
+Number of Records: 0
+Table Name: pqr
+Number of Records: 0
+"}
+{"timestamp":"2024-07-20 23:08:41","logType":"Execution Time","details":"Query: CREATE TABLE pqr (
+    pqrId INT PRIMARY KEY,
+    pqrName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERENCES abc(abcId)
+);
+
+ Execution Time: 9.2563 ms"}
+{"timestamp":"2024-07-20 23:08:54","logType":"DATABASE STATE","details":"Database Name: testDB
+Number of Tables: 3
+Table Name: abc
+Number of Records: 0
+Table Name: pqr
+Number of Records: 0
+Table Name: xyz
+Number of Records: 0
+"}
+{"timestamp":"2024-07-20 23:08:54","logType":"Execution Time","details":"Query: CREATE TABLE xyz (
+    xyzId INT PRIMARY KEY,
+    xyzName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES abc(abcId)
+);
+
+ Execution Time: 6.8278 ms"}
+{"timestamp":"2024-07-20 23:12:44","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-20 23:12:49","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-20 23:12:49","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 1.0574 ms"}
+{"timestamp":"2024-07-20 23:15:02","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-20 23:15:43","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-20 23:23:31","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-20 23:30:34","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-20 23:31:16","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-20 23:31:53","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-20 23:32:31","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-20 23:36:13","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-20 23:36:46","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-20 23:49:41","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-20 23:50:02","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-20 23:50:02","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.6674 ms"}
+{"timestamp":"2024-07-20 23:50:40","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-20 23:50:40","logType":"Execution Time","details":"Query: DROP TABLE account;
+
+ Execution Time: 27.3739 ms"}
+{"timestamp":"2024-07-21 00:45:17","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 00:45:34","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 00:45:34","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.2924 ms"}
+{"timestamp":"2024-07-21 00:46:11","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 00:46:11","logType":"Execution Time","details":"Query: CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+
+ Execution Time: 41.7626 ms"}
+{"timestamp":"2024-07-21 00:47:37","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 00:48:23","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 00:49:03","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 00:49:03","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 2.3675 ms"}
+{"timestamp":"2024-07-21 00:49:45","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 00:49:45","logType":"Execution Time","details":"Query: DROP TABLE account;
+
+ Execution Time: 31.5388 ms"}
+{"timestamp":"2024-07-21 13:30:27","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 13:30:32","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:30:32","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 2.4176 ms"}
+{"timestamp":"2024-07-21 13:30:37","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:30:37","logType":"Execution Time","details":"Query: CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+
+ Execution Time: 61.5096 ms"}
+{"timestamp":"2024-07-21 13:31:58","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 13:33:04","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 13:33:21","logType":"Execution Time","details":"Query: DROP TABLE account;
+
+ Execution Time: 26.205699 ms"}
+{"timestamp":"2024-07-21 13:33:42","logType":"Execution Time","details":"Query: 1
+use db;
+
+ Execution Time: 0.6089 ms"}
+{"timestamp":"2024-07-21 13:33:52","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:33:52","logType":"Execution Time","details":"Query: USE d1;
+
+ Execution Time: 1.3146 ms"}
+{"timestamp":"2024-07-21 13:34:05","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:34:05","logType":"Execution Time","details":"Query: DROP TABLE account;
+
+ Execution Time: 19.066301 ms"}
+{"timestamp":"2024-07-21 13:34:54","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 13:36:07","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 13:36:15","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:36:15","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.7823 ms"}
+{"timestamp":"2024-07-21 13:36:25","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:36:25","logType":"Execution Time","details":"Query: CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+
+ Execution Time: 32.146099 ms"}
+{"timestamp":"2024-07-21 13:37:49","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 13:37:56","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 0
+"}
+{"timestamp":"2024-07-21 13:37:56","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.9227 ms"}
+{"timestamp":"2024-07-21 13:38:07","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 1
+Table Name: user
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:38:07","logType":"Execution Time","details":"Query: CREATE TABLE user (
+    userId INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    age INT
+);
+
+ Execution Time: 25.9165 ms"}
+{"timestamp":"2024-07-21 13:38:17","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:38:17","logType":"Execution Time","details":"Query: CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERENCES user(userId)
+);
+
+ Execution Time: 7.8786 ms"}
+{"timestamp":"2024-07-21 13:38:31","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:38:31","logType":"Execution Time","details":"Query: CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+
+ Execution Time: 4.766701 ms"}
+{"timestamp":"2024-07-21 13:40:11","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 13:40:17","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:40:17","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 2.1119 ms"}
+{"timestamp":"2024-07-21 13:40:30","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:40:30","logType":"Execution Time","details":"Query: DROP TABLE account;
+
+ Execution Time: 42.2171 ms"}
+{"timestamp":"2024-07-21 13:41:34","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 13:41:38","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:41:38","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 0.686499 ms"}
+{"timestamp":"2024-07-21 13:41:46","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:41:46","logType":"Execution Time","details":"Query: CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+
+ Execution Time: 8.9809 ms"}
+{"timestamp":"2024-07-21 13:42:24","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 13:43:04","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 13:43:37","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 13:49:32","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 13:49:43","logType":"Execution Time","details":"Query: use d1
+use d1;
+
+ Execution Time: 1.395901 ms"}
+{"timestamp":"2024-07-21 13:49:51","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:49:51","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.372 ms"}
+{"timestamp":"2024-07-21 13:50:15","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:50:15","logType":"Execution Time","details":"Query: DROP TABLE account;
+
+ Execution Time: 35.8936 ms"}
+{"timestamp":"2024-07-21 13:55:29","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 13:55:48","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:55:48","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.414 ms"}
+{"timestamp":"2024-07-21 13:56:15","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:56:15","logType":"Execution Time","details":"Query: CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+
+ Execution Time: 60.975 ms"}
+{"timestamp":"2024-07-21 13:57:02","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 13:57:44","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:57:44","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.9475 ms"}
+{"timestamp":"2024-07-21 13:57:52","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 13:57:57","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:57:57","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 1.023999 ms"}
+{"timestamp":"2024-07-21 13:58:12","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 13:58:12","logType":"Execution Time","details":"Query: DROP TABLE account;
+
+ Execution Time: 53.596801 ms"}
+{"timestamp":"2024-07-21 14:30:58","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 14:31:02","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 1
+Table Name: user
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:31:02","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 1.6422 ms"}
+{"timestamp":"2024-07-21 14:31:08","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:31:08","logType":"Execution Time","details":"Query: CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERENCES user(userId)
+);
+
+ Execution Time: 23.5044 ms"}
+{"timestamp":"2024-07-21 14:31:15","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:31:15","logType":"Execution Time","details":"Query: CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+
+ Execution Time: 2.948401 ms"}
+{"timestamp":"2024-07-21 14:31:38","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 14:31:48","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:31:48","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 2.0858 ms"}
+{"timestamp":"2024-07-21 14:32:01","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:32:01","logType":"Execution Time","details":"Query: DROP TABLE account;
+
+ Execution Time: 23.4861 ms"}
+{"timestamp":"2024-07-21 14:32:39","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 14:32:43","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:32:43","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.4892 ms"}
+{"timestamp":"2024-07-21 14:32:47","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:32:47","logType":"Execution Time","details":"Query: CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+
+ Execution Time: 29.4544 ms"}
+{"timestamp":"2024-07-21 14:33:06","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 14:33:39","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 14:41:02","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 14:41:09","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:41:09","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 2.7454 ms"}
+{"timestamp":"2024-07-21 14:41:27","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:41:27","logType":"Execution Time","details":"Query: DROP TABLE account;
+
+ Execution Time: 29.503899 ms"}
+{"timestamp":"2024-07-21 14:42:21","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 14:49:39","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 14:49:43","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:49:43","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.124 ms"}
+{"timestamp":"2024-07-21 14:49:58","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:49:58","logType":"Execution Time","details":"Query: CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERNCES job(id)
+);
+
+ Execution Time: 41.2797 ms"}
+{"timestamp":"2024-07-21 14:51:36","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 14:51:42","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:51:42","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.505801 ms"}
+{"timestamp":"2024-07-21 14:51:45","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:51:45","logType":"Execution Time","details":"Query: CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERNCES job(id)
+);
+
+ Execution Time: 27.152 ms"}
+{"timestamp":"2024-07-21 14:53:43","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 14:53:48","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:53:48","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 2.724201 ms"}
+{"timestamp":"2024-07-21 14:56:00","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 14:56:05","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:56:05","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 2.781701 ms"}
+{"timestamp":"2024-07-21 14:56:18","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:56:18","logType":"Execution Time","details":"Query: CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERNCES user(userId)
+);
+
+ Execution Time: 24.213 ms"}
+{"timestamp":"2024-07-21 14:58:55","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 14:59:00","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 1
+Table Name: user
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:59:00","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 1.862399 ms"}
+{"timestamp":"2024-07-21 14:59:05","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:59:05","logType":"Execution Time","details":"Query: CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERNCES user(userId)
+);
+
+ Execution Time: 21.6674 ms"}
+{"timestamp":"2024-07-21 14:59:35","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 14:59:35","logType":"Execution Time","details":"Query: CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERNCES job(id)
+);
+
+ Execution Time: 1.9574 ms"}
+{"timestamp":"2024-07-21 15:04:22","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 15:04:29","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 0
+"}
+{"timestamp":"2024-07-21 15:04:29","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.399501 ms"}
+{"timestamp":"2024-07-21 15:04:42","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 1
+Table Name: user
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:04:42","logType":"Execution Time","details":"Query: CREATE TABLE user (
+    userId INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    age INT
+);
+
+ Execution Time: 25.8371 ms"}
+{"timestamp":"2024-07-21 15:04:56","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:04:56","logType":"Execution Time","details":"Query: CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERNCES user(userId)
+);
+
+ Execution Time: 5.911301 ms"}
+{"timestamp":"2024-07-21 15:05:39","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 15:05:45","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 1
+Table Name: user
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:05:45","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.0301 ms"}
+{"timestamp":"2024-07-21 15:06:00","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:06:00","logType":"Execution Time","details":"Query: CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERNCES user(userId)
+);
+
+ Execution Time: 33.1431 ms"}
+{"timestamp":"2024-07-21 15:10:18","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 15:10:24","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 1
+Table Name: user
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:10:24","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.3336 ms"}
+{"timestamp":"2024-07-21 15:10:42","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:10:42","logType":"Execution Time","details":"Query: CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERNCES user(userId)
+);
+
+ Execution Time: 24.576099 ms"}
+{"timestamp":"2024-07-21 15:15:40","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:15:40","logType":"Execution Time","details":"Query: CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+
+ Execution Time: 4.8358 ms"}
+{"timestamp":"2024-07-21 15:16:25","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:16:25","logType":"Execution Time","details":"Query: CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERNCES user(userId)
+);
+
+ Execution Time: 3.739699 ms"}
+{"timestamp":"2024-07-21 15:17:41","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 15:17:46","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:17:46","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 2.8302 ms"}
+{"timestamp":"2024-07-21 15:17:49","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:17:49","logType":"Execution Time","details":"Query: CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERENCES user(userId)
+);
+
+ Execution Time: 25.5529 ms"}
+{"timestamp":"2024-07-21 15:18:50","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 1
+Table Name: user
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:18:50","logType":"Execution Time","details":"Query: DROP TABLE course;
+
+ Execution Time: 8.665501 ms"}
+{"timestamp":"2024-07-21 15:19:35","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: job
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:19:35","logType":"Execution Time","details":"Query: CREATE TABLE job (
+    jobId INT PRIMARY KEY,
+    jobName VARCHAR(50),
+    FOREIGN KEY (jobName) REFERENCES user(userId)
+);
+
+ Execution Time: 4.320899 ms"}
+{"timestamp":"2024-07-21 15:22:33","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 15:22:39","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 1
+Table Name: user
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:22:39","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 3.0915 ms"}
+{"timestamp":"2024-07-21 15:22:51","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:22:51","logType":"Execution Time","details":"Query: CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+
+ Execution Time: 25.0345 ms"}
+{"timestamp":"2024-07-21 15:23:14","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:23:14","logType":"Execution Time","details":"Query: CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERENCES user(userId)
+);
+
+ Execution Time: 4.524 ms"}
+{"timestamp":"2024-07-21 15:23:40","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 4
+Table Name: user
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: job
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:23:40","logType":"Execution Time","details":"Query: CREATE TABLE job (
+    jobId INT PRIMARY KEY,
+    jobName VARCHAR(50),
+    FOREIGN KEY (jobName) REFERENCES user(userId)
+);
+
+ Execution Time: 4.0367 ms"}
+{"timestamp":"2024-07-21 15:24:19","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: job
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:24:19","logType":"Execution Time","details":"Query: DROP TABLE account;
+
+ Execution Time: 6.9604 ms"}
+{"timestamp":"2024-07-21 15:26:14","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 15:26:40","logType":"Execution Time","details":"Query: DROP TABLE course;
+
+ Execution Time: 14.4443 ms"}
+{"timestamp":"2024-07-21 15:26:47","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 4
+Table Name: user
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: job
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:26:47","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 1.4906 ms"}
+{"timestamp":"2024-07-21 15:26:58","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: job
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:26:58","logType":"Execution Time","details":"Query: DROP TABLE account;
+
+ Execution Time: 19.5261 ms"}
+{"timestamp":"2024-07-21 15:28:03","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 15:28:08","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 1
+Table Name: user
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:28:08","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 1.5746 ms"}
+{"timestamp":"2024-07-21 15:28:19","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 2
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:28:19","logType":"Execution Time","details":"Query: CREATE TABLE course (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(50),
+    FOREIGN KEY (courseName) REFERENCES user(userId)
+);
+
+ Execution Time: 25.0054 ms"}
+{"timestamp":"2024-07-21 15:28:36","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:28:36","logType":"Execution Time","details":"Query: CREATE TABLE account (
+    accountId INT PRIMARY KEY,
+    accountName VARCHAR(50),
+    FOREIGN KEY (accountName) REFERENCES user(userId)
+);
+
+ Execution Time: 6.1292 ms"}
+{"timestamp":"2024-07-21 15:29:03","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 4
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+Table Name: job
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:29:03","logType":"Execution Time","details":"Query: CREATE TABLE job (
+    jobId INT PRIMARY KEY,
+    jobName VARCHAR(50),
+    FOREIGN KEY (jobName) REFERENCES user(userId)
+);
+
+ Execution Time: 5.4643 ms"}
+{"timestamp":"2024-07-21 15:29:32","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
+{"timestamp":"2024-07-21 15:29:36","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 4
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: account
+Number of Records: 0
+Table Name: job
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:29:36","logType":"Execution Time","details":"Query: use d1;
+
+ Execution Time: 2.7063 ms"}
+{"timestamp":"2024-07-21 15:29:55","logType":"DATABASE STATE","details":"Database Name: d1
+Number of Tables: 3
+Table Name: user
+Number of Records: 0
+Table Name: course
+Number of Records: 0
+Table Name: job
+Number of Records: 0
+"}
+{"timestamp":"2024-07-21 15:29:55","logType":"Execution Time","details":"Query: DROP TABLE account;
+
+ Execution Time: 25.6215 ms"}
+{"timestamp":"2024-07-21 15:30:26","logType":"USER AUTHENTICATION","details":"User Authenticated Successfully for test"}
